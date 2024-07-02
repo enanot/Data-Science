@@ -1,10 +1,4 @@
 class Persona:
-    def __init__(self, name, age, sex):
-        self.__name = set_name(name)
-        self.__sex = set_age(age)
-        self.__age = set_age(age)
-        self.__ocupation=""
-        self.__is_tired
 
     def get_name(self):
         return self.__name
@@ -27,16 +21,24 @@ class Persona:
         else:
             print("Age not posible")
 
-   
-    def get_ocupation(self):
-        return self.__ocupation
+    def get_ocupation(self):  
+        return self__ocupation
+    def set_ocupation(self,ocupation):
+        if(len(ocupation)>20):
+            print("Ocupation too long")
+        else:
+            self.__ocupation=ocupation
 
-mydog = Dog("White", 2, "Bulldog")
-print("Color:", mydog.get_color())
-print("Edad:", mydog.get_edad())
-print("Raza:", mydog.get_raza())
+    def get_is_tired(self):
+        return __is_tired
 
-mydog.set_name("Sherlock")
+    def __init__(self, name, age, sex):
+        self.__name = set_name(self,name)
+        self.__sex = set_age(age)
+        self.__age = set_age(age)
+        self.__ocupation
+        self.__is_tired
 
-print("Nombre:", mydog.get_name())
- 
+persona1= Persona("paco",20,"Male")
+
+print (persona1.get_name)
