@@ -1,5 +1,4 @@
 class Vehicle:
-
     make= 'Uninitialized'
     model= 'Unknown'
 
