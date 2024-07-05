@@ -1,11 +1,7 @@
-
-#Usa los módulos string y random para generar una contraseña aleatoria de 8 caracteres que contenga letras mayúsculas, minúsculas y dígitos.
-
 import random, string 
 
 def ranList():
     numList = []
-
     while (len(numList)< 7):
         num = random.randint(0,9)
         if (num in numList) == False :
@@ -20,7 +16,7 @@ def ranList2(n,l):
 
     while (len(numList)< n):
         num = random.randint(0,l)
-        if (num in numList) == False :
+        if (num in numList) == False :  #if num not in numList
             numList.append(num)
     return numList
 
