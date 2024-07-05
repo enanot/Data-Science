@@ -16,7 +16,7 @@ class Persona:
     def __repr__(self):
         #return f'Persona ({self.getName()},{self.getAge()},{self.getOcupation()})'
         #return "(%s, %d, %s)" % (self.getName(),self.getAge(), self.getOcupation())
-        return 'Marca: ' + self.getName() + 'Modelo: ' + self.getAge()+'Año: ' + self.getOcupation()
+        return 'Marca: ' + self.getName() + 'Modelo: ' + self.getAge()+'Aï¿½o: ' + self.getOcupation()
 
 persona1 = Persona("Pablo",60,"DJ")
 persona2 = Persona("Paco",30,"Carnicero")
