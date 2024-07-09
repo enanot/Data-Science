@@ -1,4 +1,4 @@
-#Genera una lista aleatoria de 5 números utilizando el módulo random y luego calcular el promedio de esos números.
+#Genera una lista aleatoria de 5 nï¿½meros utilizando el mï¿½dulo random y luego calcular el promedio de esos nï¿½meros.
 
 import random, statistics
 
