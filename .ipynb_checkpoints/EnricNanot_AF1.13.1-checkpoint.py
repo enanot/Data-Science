@@ -11,12 +11,12 @@ print("-----------------------------------------------------")
 #Ejercicio 2
 colection = []
 
-colection2 = np.random.randint(0,101,[5000,5000])
+colection2 = np.random.randint(0,101,[50000,50000])
    
 a1 = t.time()
 sum = 0
-for i in range (5000):
-    for j in range(5000):
+for i in range (50000):
+    for j in range(50000):
         sum = colection2[i][j]+sum
 a2 = t.time()
 sum2 = np.sum(colection2)
