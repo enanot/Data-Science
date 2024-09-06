@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 Pandas/data/9689.csv
 DB/9689.csv
+credentials db/curso-database.txt
