@@ -15,6 +15,7 @@ SHOW COLUMNS FROM movies
 -- Escribe una Query SQL que muestre la fecha actual en una columna llamada "Fecha" con el formato "AAAA-MM-DD".
 
 SELECT CURDATE() AS 'Fecha'
+
 -- Ejercicio 04
 
 -- Escribe una Query SQL que muestre el título y resumen de todas las películas ordenadas alfabéticamente.

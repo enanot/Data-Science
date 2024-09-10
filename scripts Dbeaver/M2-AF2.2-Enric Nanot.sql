@@ -51,9 +51,10 @@ select * from movies order by min_duration asc
 -- 
 -- Los miembros deben mostrarse del más joven al más viejo. La columna se llamará "Full name".
 -- 
-   select Concat (concat(UCASE(Left(lastname,1)),Lcase(SUBSTRING(lastname,2))),' ', concat(UCASE(Left(firstname,1)),Lcase(SUBSTRING(firstname,2)))) "Full Name" ,birthdate from profiles order by birthdate desc
+   select Concat (concat(UCASE(Left(lastname,1)),Lcase(SUBSTRING(lastname,2))),', ', concat(UCASE(Left(firstname,1)),Lcase(SUBSTRING(firstname,2)))) "Full Name" ,birthdate from profiles order by birthdate desc
    
    select * from profiles 
+   
 -- 
 -- 
 -- ENTREGA: "M2-AF2.2-Nombre Alumne.sql"
