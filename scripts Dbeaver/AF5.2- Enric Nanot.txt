@@ -1,0 +1,28 @@
+
+Tabla movies: 
+
+	genre_id foregin key con id de tabla genres
+	producer_id foregin key con id de tabla producers 
+
+tabla member_history
+
+	member_id foregin key con id de tabla member
+	movie_id foregin key con id movies
+
+tabla staff
+
+	profile_id foregin key con id de tabla profiles
+	job_id foregin key con id de tabla jobs
+
+tabla members
+	
+	profile_id foregin key con id tabla profiles
+	sub_id foregin key con id tabla subscriptions
+
+tabla program_grip
+
+	movie_id foregin key con id de tabla movies
+	room_id foregin key con id de tabla rooms
+	staff_opener_id foregin key con id tabla staff
+	staff_technician_id foregin key con id tabla staff
+	staff_menage_id foregin key con id tabla staff
